@@ -51,7 +51,7 @@ void bubbleSort_better(int arr[], int length)
 }
 
 int main() {
-	int arr[] = { 9,1,2,3,4,5,6,7,8 };
+	int arr[] = { 9,1,2,3,4,6,6,7,7 };
 	int length = sizeof(arr) / sizeof(arr[0]);
 	//bubbleSort(arr,length);;
 	bubbleSort_better(arr, length);
