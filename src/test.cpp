@@ -31,7 +31,7 @@ void bubbleSort(int arr[],int length)
 		}
 	}
 }
-//-----------------优化冒泡排序------------记录每轮是否进行过交换
+//-----------------优化冒泡排序------------记录每轮是否进行过交换//
 void bubbleSort_better(int arr[], int length)
 {
 	bool isSorted = false;
